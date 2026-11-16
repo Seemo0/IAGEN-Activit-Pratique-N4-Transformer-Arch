@@ -1,0 +1,14 @@
+[project]
+name = "transformers-arch"
+version = "0.1.0"
+description = "Activité pratique 4 : Architecture Transformer"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "torch",
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "scikit-learn",
+    "transformers",
+    "ipykernel",
+]
