@@ -2,7 +2,6 @@
 
 **Mohamed Ouallal**  
 **IADATA — Groupe 4**  
-Professeur : Mohamed YOUSSFI
 
 ## Installation
 
@@ -15,5 +14,7 @@ Le fichier `corpus.txt` sera rempli pour l’exercice 2.
 
 ## Exécution
 
-Ouvrir `architecture_transformer.ipynb` dans VS Code et sélectionner
-l’environnement Python `.venv` comme noyau. Exécuter les cellules dans l’ordre.
+Ouvrir les notebooks dans VS Code et sélectionner l’environnement Python `.venv` comme noyau, puis exécuter les cellules dans l’ordre :
+
+- `notebooks/modeles_sequence_et_langage.ipynb` : Première partie (série temporelle `sin(x)`, RNN, LSTM, Transformer, GPT, BERT)
+- `notebooks/exercices.ipynb` : Deuxième partie (Exercices 1, 2 et 3)
