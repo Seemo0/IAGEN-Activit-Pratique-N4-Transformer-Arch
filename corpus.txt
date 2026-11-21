@@ -1,0 +1,39 @@
+L'intelligence artificielle transforme profondément notre manière de comprendre le monde et de travailler chaque jour.
+Depuis plusieurs décennies, les chercheurs imaginent des systèmes capables d'apprendre à partir de données variées.
+Les réseaux de neurones artificiels s'inspirent du fonctionnement général du cerveau humain, même si leur structure reste mathématique.
+Un modèle simple observe des exemples, calcule une erreur, puis ajuste progressivement ses paramètres internes pour s'améliorer.
+
+Au début, les réseaux récurrents comme le RNN ont permis de traiter des séquences de mots ou des séries temporelles.
+Cependant, la mémoire d'un RNN classique s'affaiblit rapidement lorsque la phrase devient longue ou complexe.
+Les architectures LSTM ont apporté une solution grâce à des portes capables de conserver ou d'oublier certaines informations.
+Malgré ces progrès, le traitement séquentiel mot après mot limitait la parallélisation sur les processeurs graphiques modernes.
+
+En deux mille dix-sept, l'architecture Transformer a proposé une approche nouvelle fondée sur le mécanisme d'attention.
+Au lieu de lire une phrase uniquement de gauche à droite, l'auto-attention relie directement chaque mot à tous les autres mots.
+Chaque mot produit trois vecteurs appelés requête, clé et valeur afin de mesurer l'importance des relations dans le contexte.
+Cette idée simple mais puissante a ouvert la voie aux grands modèles de langage que nous utilisons aujourd'hui.
+
+Les modèles de type GPT utilisent uniquement la partie décodeur avec un masque causal qui cache le futur.
+Pendant l'entraînement, le modèle lit une séquence de texte et apprend à prédire le caractère ou le mot suivant.
+Lorsque l'on génère du texte, la température contrôle le degré de créativité et de diversité des choix effectués.
+Une température basse rend les prédictions plus prudentes et répétitives, tandis qu'une température élevée favorise la surprise.
+
+Les modèles de type BERT utilisent au contraire la partie encodeur avec une attention bidirectionnelle sans masque causal.
+Pour apprendre le sens des mots, certains termes sont remplacés par un jeton spécial appelé masque avant d'être devinés.
+Grâce au contexte situé à gauche et à droite, le modèle comprend mieux les nuances grammaticales et sémantiques d'une phrase.
+C'est pourquoi BERT est souvent utilisé pour la classification, l'analyse de texte et la recherche d'informations précises.
+
+Dans la vie quotidienne, les applications de ces technologies sont nombreuses et très concrètes.
+On les retrouve dans la traduction automatique, le résumé de documents longs, la correction orthographique et l'aide à la programmation.
+Dans le domaine de l'énergie, les séries temporelles permettent aussi d'anticiper la consommation électrique heure par heure.
+Prévoir la demande future aide les gestionnaires de réseau à équilibrer la production et à éviter le gaspillage.
+
+L'apprentissage automatique demande toutefois de la rigueur dans la préparation et la séparation des données.
+Il faut toujours diviser le jeu de données en parties d'entraînement, de validation et de test avant de normaliser les valeurs.
+Si l'on utilise des statistiques calculées sur l'ensemble complet, on introduit une fuite d'information qui fausse l'évaluation.
+La validation sert à choisir le meilleur modèle sans toucher au jeu de test final, qui mesure la vraie capacité de généralisation.
+
+Apprendre les fondements mathématiques et coder de petits modèles depuis zéro reste la meilleure façon de progresser.
+Même avec quelques couches et un petit vocabulaire, on observe clairement comment la perte diminue au fil des époques.
+Les expériences pratiques permettent de vérifier chaque propriété importante, comme la causalité ou l'invariance au remplissage.
+Pas à pas, la théorie devient concrète et les mécanismes internes des architectures modernes deviennent beaucoup plus clairs.
